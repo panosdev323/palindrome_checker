@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,span,div {
+    font-family:'Courier New', Courier, monospace;
+}
+p,input,button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow Bold', sans-serif
+}
+body {
+    width:100%;
+    height:100%;
+    background-color: rgb(57, 56, 56);
+    font-size:16px;
+}
+main {
+    margin:25px auto;
+    width:60vw;
+    max-width:600px;
+}
+fieldset {
+    padding:20px;
+    font-family:'Courier New', Courier, monospace;
+    color:antiquewhite;
+    font-style: oblique;
+}
+#check-btn {
+    background: orangered;
+    color:antiquewhite;
+    padding:2px 12px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+#check-btn:hover {
+    background: rgb(236, 5, 5);
+    transition:background 0.2s ease-in-out;
+}
+#text-input {
+    padding: 2px 4px;
+    margin: 8px 0;
+}
+#result {
+    color:antiquewhite;
+    margin:25px auto;
+    width:60vw;
+    max-width:600px;
+    font-size:18px;
+    font-weight:800;
+}
